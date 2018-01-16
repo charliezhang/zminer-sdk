@@ -1,0 +1,11 @@
+framework module zminer_core2 {
+  umbrella header "zminer_core2.h"
+
+  export *
+  module * { export * }
+}
+
+module zminer_core2.Swift {
+    header "zminer_core2-Swift.h"
+    requires objc
+}
